@@ -24,8 +24,8 @@ RUN ln -s /usr/lib/libz3.so /usr/lib/libz3.so.4
 RUN ln -s /usr/lib/libz3.so /usr/lib/libz3.so.4.11
 
 # Install Eldarica
-RUN wget https://github.com/uuverifiers/eldarica/releases/download/v2.0.8/eldarica-bin-2.0.8.zip
-RUN unzip eldarica-bin-2.0.8.zip
+RUN wget https://github.com/uuverifiers/eldarica/releases/download/v2.1/eldarica-bin-2.1.zip
+RUN unzip eldarica-bin-2.1.zip
 RUN mv eldarica/ /usr/local/
 
 # Build and install solc
